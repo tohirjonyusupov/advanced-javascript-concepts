@@ -5,19 +5,19 @@
 // 2. Use       — o'qish, yozish
 // 3. Release   — kerak bo'lmasa xotira bo'shatiladi
 
-┌─────────────────┐    ┌─────────────────┐
-│      STACK       │    │      HEAP        │
-│                  │    │                  │
-│  Primitive types │    │  Reference types │
-│  number          │    │  Object          │
-│  string          │    │  Array           │
-│  boolean         │    │  Function        │
-│  null            │    │                  │
-│  undefined       │    │  (dinamik o'lcham│
-│  symbol          │    │   katta ma'lumot)│
-│                  │    │                  │
-│  Tez, kichik     │    │  Sekin, katta    │
-└─────────────────┘    └─────────────────┘
+// ┌─────────────────┐    ┌─────────────────┐
+// │      STACK       │    │      HEAP        │
+// │                  │    │                  │
+// │  Primitive types │    │  Reference types │
+// │  number          │    │  Object          │
+// │  string          │    │  Array           │
+// │  boolean         │    │  Function        │
+// │  null            │    │                  │
+// │  undefined       │    │  (dinamik o'lcham│
+// │  symbol          │    │   katta ma'lumot)│
+// │                  │    │                  │
+// │  Tez, kichik     │    │  Sekin, katta    │
+// └─────────────────┘    └─────────────────┘
 
 // Stack — qiymat to'g'ridan to'g'ri saqlanadi
 let a = 10;
