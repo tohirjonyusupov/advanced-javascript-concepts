@@ -20,7 +20,7 @@
 // └─────────────────┘    └─────────────────┘
 
 // Stack — qiymat to'g'ridan to'g'ri saqlanadi
-let a = 10;
+let a = 20;
 let b = a;
 b = 20;
 console.log(a); // 10 — o'zgarmadi
